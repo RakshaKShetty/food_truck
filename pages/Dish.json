@@ -503,6 +503,13 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Dish_get_preference",
+              "name": "get_preference",
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 100000
+            },
+            {
               "id": "Dish_Select_Ingredient",
               "name": "Select_Ingredient",
               "pluginType": "DB",
@@ -515,13 +522,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Dish_get_preference",
-              "name": "get_preference",
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 100000
             }
           ]
         ],
@@ -1059,6 +1059,13 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Dish_get_preference",
+              "name": "get_preference",
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 100000
+            },
+            {
               "id": "Dish_Select_Ingredient",
               "name": "Select_Ingredient",
               "pluginType": "DB",
@@ -1071,13 +1078,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Dish_get_preference",
-              "name": "get_preference",
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 100000
             }
           ]
         ],
