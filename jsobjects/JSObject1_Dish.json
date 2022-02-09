@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Dish",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tresults: [],\n\trun: () => {\n\t\t//write code here\n\t}\n}",
+    "variables": [
+      {
+        "name": "results",
+        "value": []
+      }
+    ]
+  },
+  "id": "Dish_JSObject1",
+  "deleted": false,
+  "gitSyncId": "616bb65c354b5d6f2b9aae8c_61bb7741cd5d7045095335b6"
+}
