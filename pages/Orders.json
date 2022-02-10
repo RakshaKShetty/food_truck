@@ -448,7 +448,6 @@
             }
           ]
         },
-
         "layoutOnLoadActions": [
           [
             {
@@ -461,7 +460,6 @@
             }
           ]
         ],
-
         "widgetNames": [
           "Button1",
           "Button2",

@@ -152,7 +152,6 @@
             }
           ]
         },
-
         "layoutOnLoadActions": [
           [
             {
@@ -169,7 +168,6 @@
             }
           ]
         ],
-
         "widgetNames": [
           "Chart1",
           "Chart2",
