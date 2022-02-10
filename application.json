@@ -1,5 +1,4 @@
 {
-  "name": "Foodtruck123",
   "isPublic": false,
   "viewMode": false,
   "appIsExample": false,
@@ -7,8 +6,8 @@
   "color": "#BC6DB2",
   "icon": "laptop",
   "slug": "foodtruck123",
-  "publishedModeThemeId": "61c57741db67aa7828fd7472",
-  "editModeThemeId": "61c57741db67aa7828fd7472",
+  "publishedModeThemeId": "61e14b833d0a7d7212c5cfa8",
+  "editModeThemeId": "61e14b833d0a7d7212c5cfa8",
   "createdAt": {
     "seconds": 1634448988,
     "nanos": 369000000
