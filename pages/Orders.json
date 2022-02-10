@@ -19,8 +19,8 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 49,
-          "minHeight": 550,
+          "version": 51,
+          "minHeight": 710,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
@@ -448,6 +448,7 @@
             }
           ]
         },
+
         "layoutOnLoadActions": [
           [
             {
@@ -460,6 +461,7 @@
             }
           ]
         ],
+
         "widgetNames": [
           "Button1",
           "Button2",
