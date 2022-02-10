@@ -152,7 +152,24 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+
+        "layoutOnLoadActions": [
+          [
+            {
+              "name": "Ingredient_summary",
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "name": "Dish_summary",
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+
         "widgetNames": [
           "Chart1",
           "Chart2",

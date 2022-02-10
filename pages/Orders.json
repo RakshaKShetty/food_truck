@@ -448,7 +448,20 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+
+        "layoutOnLoadActions": [
+          [
+            {
+              "name": "ordered_items",
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+
         "widgetNames": [
           "Button1",
           "Button2",
