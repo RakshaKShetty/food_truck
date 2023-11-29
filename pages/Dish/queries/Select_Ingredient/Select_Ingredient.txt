@@ -1,0 +1,1 @@
+SELECT Id as value, Name as label FROM Ingredients 

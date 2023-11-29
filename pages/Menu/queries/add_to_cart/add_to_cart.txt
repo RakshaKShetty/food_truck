@@ -1,0 +1,1 @@
+insert into Cart (username, DishId, IsOrdered) values ("{{appsmith.user.username}}", {{menu.selectedItem.Id}}, 0);

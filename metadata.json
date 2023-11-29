@@ -1,21 +1,5 @@
 {
-  "fileFormatVersion": 1,
   "clientSchemaVersion": 1,
-  "serverSchemaVersion": 1,
-  "publishedDefaultPageName": "Welcomepage",
-  "unpublishedDefaultPageName": "Welcomepage",
-  "editModeTheme": {
-    "name": "Classic",
-    "isSystemTheme": true,
-    "deleted": false,
-    "policies": []
-  },
-  "publishedTheme": {
-    "name": "Classic",
-    "isSystemTheme": true,
-    "deleted": false,
-    "policies": []
-  },
-  "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {}
+  "serverSchemaVersion": 7,
+  "fileFormatVersion": 5
 }

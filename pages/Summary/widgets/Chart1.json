@@ -1,0 +1,56 @@
+{
+    "widgetName": "Chart1",
+    "allowScroll": false,
+    "displayName": "Chart",
+    "iconSVG": "/static/media/icon.6adbe31e.svg",
+    "topRow": 1,
+    "bottomRow": 33,
+    "parentRowSpace": 10,
+    "type": "CHART_WIDGET",
+    "hideCard": false,
+    "chartData": {"vp89yvcgs5": {
+        "data": "{{Dish_summary.data.map( (obj) =>{ return  {'x': obj.label, 'y': obj.value } })}}",
+        "seriesName": "Sales"
+    }},
+    "dynamicTriggerPathList": [],
+    "dynamicBindingPathList": [{"key": "chartData.vp89yvcgs5.data"}],
+    "leftColumn": 0,
+    "customFusionChartConfig": {
+        "type": "column2d",
+        "dataSource": {
+            "data": [
+                {
+                    "label": "Product1",
+                    "value": 20000
+                },
+                {
+                    "label": "Product2",
+                    "value": 22000
+                },
+                {
+                    "label": "Product3",
+                    "value": 32000
+                }
+            ],
+            "chart": {
+                "yAxisName": "Revenue($)",
+                "xAxisName": "Product Line",
+                "caption": "Sales Report",
+                "theme": "fusion"
+            }
+        }
+    },
+    "key": "faqmiqx6lw",
+    "rightColumn": 24,
+    "widgetId": "ss2ix9q4yv",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "labelOrientation": "auto",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "yAxisName": "quantity",
+    "chartName": "Dish Summary",
+    "xAxisName": "dish",
+    "chartType": "LINE_CHART"
+}

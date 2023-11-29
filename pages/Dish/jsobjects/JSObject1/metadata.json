@@ -6,13 +6,13 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tresults: [],\n\trun: () => {\n\t\t//write code here\n\t}\n}",
     "variables": [
       {
         "name": "results",
         "value": []
       }
-    ]
+    ],
+    "userPermissions": []
   },
   "id": "Dish_JSObject1",
   "deleted": false,

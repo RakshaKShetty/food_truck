@@ -1,0 +1,45 @@
+{
+    "boxShadow": "none",
+    "widgetName": "Preference",
+    "dynamicPropertyPathList": [],
+    "displayName": "Radio Group",
+    "iconSVG": "/static/media/icon.0ca22bbe.svg",
+    "topRow": 33,
+    "bottomRow": 41,
+    "parentRowSpace": 10,
+    "type": "RADIO_GROUP_WIDGET",
+    "hideCard": false,
+    "defaultOptionValue": "1",
+    "parentColumnSpace": 16.1828125,
+    "dynamicTriggerPathList": [{"key": "onSelectionChange"}],
+    "leftColumn": 10,
+    "dynamicBindingPathList": [],
+    "onSelectionChange": "{{get_menu.run()}}",
+    "options": [
+        {
+            "label": "Veg",
+            "value": "1"
+        },
+        {
+            "label": "NonVeg",
+            "value": "2"
+        }
+    ],
+    "isDisabled": false,
+    "key": "jrp80trkdy",
+    "labelTextSize": "0.875rem",
+    "isRequired": false,
+    "rightColumn": 22,
+    "dynamicHeight": "FIXED",
+    "widgetId": "uh7wt906dd",
+    "isVisible": true,
+    "label": "",
+    "version": 1,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "0px",
+    "maxDynamicHeight": 9000,
+    "alignment": "left",
+    "minDynamicHeight": 4
+}

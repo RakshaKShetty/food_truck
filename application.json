@@ -1,16 +1,46 @@
 {
-  "isPublic": false,
+  "pages": [
+    {
+      "id": "Welcomepage",
+      "isDefault": true
+    },
+    {
+      "id": "Menu",
+      "isDefault": false
+    },
+    {
+      "id": "Checkout",
+      "isDefault": false
+    },
+    {
+      "id": "Orders",
+      "isDefault": false
+    },
+    {
+      "id": "Ingredients",
+      "isDefault": false
+    },
+    {
+      "id": "Dish",
+      "isDefault": false
+    },
+    {
+      "id": "Summary",
+      "isDefault": false
+    }
+  ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#BC6DB2",
   "icon": "laptop",
-  "slug": "food-truck",
-  "publishedModeThemeId": "61e14b833d0a7d7212c5cfa8",
-  "editModeThemeId": "61e14b833d0a7d7212c5cfa8",
-  "createdAt": {
-    "seconds": 1634448988,
-    "nanos": 369000000
-  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "applicationVersion": 1,
+  "isManualUpdate": false,
   "deleted": false
 }

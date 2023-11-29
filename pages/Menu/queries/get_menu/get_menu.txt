@@ -1,0 +1,3 @@
+SELECT Dish.Id, Dish.Name, Dish.Image, Dish.Price
+FROM Dish join DishDetails on Dish.Id = DishDetails.DishId 
+where DishDetails.PreferenceId = {{Preference.selectedOptionValue}} and DishDetails.TypeId = {{Type.selectedOptionValue}}

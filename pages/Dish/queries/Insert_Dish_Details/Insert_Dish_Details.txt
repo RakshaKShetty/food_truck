@@ -1,0 +1,2 @@
+INSERT into DishDetails (DishId, PreferenceId, TypeId)
+VALUES({{appsmith.store.newDishId}}, {{Select1.selectedOptionValue}}, {{Select2.selectedOptionValue}} )

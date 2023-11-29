@@ -1,0 +1,8 @@
+INSERT INTO Ingredients
+  (Name,image)
+VALUES
+  (
+    "{{Input1.text}}",
+		"{{Input2.text}}"
+    
+  );

@@ -1,0 +1,1 @@
+Update Cart set ratings = {{Rating1.value}} where  Id = {{orders.selectedRow.Id}}

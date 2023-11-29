@@ -1,0 +1,4 @@
+{
+	"dish_id" : {{appsmith.store.newDishId}},
+	"ingredient_ids": {{MultiSelect1.selectedOptionValues}}
+}

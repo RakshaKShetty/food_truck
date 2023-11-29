@@ -1,0 +1,5 @@
+SELECT Distinct Cart.Id as Id , Dish.Name as DishName, ratings FROM Cart 
+JOIN Dish on Cart.DishId = Dish.Id
+JOIN DishDetails on Cart.DishId = DishDetails.DishId
+where username = "{{ appsmith.user.username}}" and IsOrdered = 1 
+order by Id DESC

@@ -1,0 +1,4 @@
+INSERT into Dish(Name, Image, Price) values
+( "{{Input1.text}}", "{{Input2.text}}", {{Input3.text}});
+
+SELECt max(id) as id from Dish

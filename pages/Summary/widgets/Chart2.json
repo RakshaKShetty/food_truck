@@ -1,0 +1,56 @@
+{
+    "widgetName": "Chart2",
+    "allowScroll": false,
+    "displayName": "Chart",
+    "iconSVG": "/static/media/icon.6adbe31e.svg",
+    "topRow": 1,
+    "bottomRow": 33,
+    "parentRowSpace": 10,
+    "type": "CHART_WIDGET",
+    "hideCard": false,
+    "chartData": {"joj6atg44k": {
+        "data": "{{Ingredient_summary.data.map( (obj) =>{ return  {'x': obj.label, 'y': obj.value } })}}",
+        "seriesName": "Sales"
+    }},
+    "dynamicTriggerPathList": [],
+    "dynamicBindingPathList": [{"key": "chartData.joj6atg44k.data"}],
+    "leftColumn": 34,
+    "customFusionChartConfig": {
+        "type": "column2d",
+        "dataSource": {
+            "data": [
+                {
+                    "label": "Product1",
+                    "value": 20000
+                },
+                {
+                    "label": "Product2",
+                    "value": 22000
+                },
+                {
+                    "label": "Product3",
+                    "value": 32000
+                }
+            ],
+            "chart": {
+                "yAxisName": "Revenue($)",
+                "xAxisName": "Product Line",
+                "caption": "Sales Report",
+                "theme": "fusion"
+            }
+        }
+    },
+    "key": "faqmiqx6lw",
+    "rightColumn": 58,
+    "widgetId": "9d8r8bn1o4",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "labelOrientation": "auto",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "yAxisName": "Revenue($)",
+    "chartName": "Ingredient Summary",
+    "xAxisName": "Product Line",
+    "chartType": "PIE_CHART"
+}

@@ -1,0 +1,2 @@
+SELECT Dish.Id, Dish.Name
+FROM Dish join DishDetails on Dish.Id = DishDetails.DishId 
