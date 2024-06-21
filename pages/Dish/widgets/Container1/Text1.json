@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "Text1",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.e6c93592.svg",
@@ -10,13 +11,16 @@
     "parentColumnSpace": 16.4287109375,
     "dynamicTriggerPathList": [],
     "overflow": "NONE",
+    "fontFamily": "System Default",
     "leftColumn": 1,
     "dynamicBindingPathList": [],
     "text": "Add Dish",
     "key": "oizcoadvm6",
+    "labelTextSize": "0.875rem",
     "rightColumn": 11,
     "backgroundColor": "#FFC13D",
     "textAlign": "CENTER",
+    "dynamicHeight": "FIXED",
     "widgetId": "krxmqoho2p",
     "isVisible": true,
     "fontStyle": "BOLD",
@@ -25,5 +29,8 @@
     "parentId": "g2s3kq5pxv",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "fontSize": "HEADING3"
+    "borderRadius": "0px",
+    "maxDynamicHeight": 9000,
+    "fontSize": "1rem",
+    "minDynamicHeight": 4
 }

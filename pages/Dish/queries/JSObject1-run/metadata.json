@@ -26,13 +26,19 @@
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2021-10-17T15:00:57Z"
   },
   "id": "Dish_JSObject1.run",
   "deleted": false,

@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "Button4",
     "onClick": "{{Add_ingredient.run(() =>{ showAlert('Ingredient added successfully','success');closeModal('Modal1'); get_Ingredients.run() }, () => {})}}",
     "buttonColor": "#03B365",
@@ -15,6 +16,7 @@
     "text": "Confirm",
     "isDisabled": false,
     "key": "vnisthnerp",
+    "labelTextSize": "0.875rem",
     "rightColumn": 57,
     "isDefaultClickDisabled": true,
     "widgetId": "5n8sg0x1wa",
@@ -25,5 +27,6 @@
     "parentId": "jmo4nrd6km",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "borderRadius": "0px",
     "buttonVariant": "PRIMARY"
 }

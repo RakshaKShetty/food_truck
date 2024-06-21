@@ -1,5 +1,5 @@
 {
-    "boxShadow": "NONE",
+    "boxShadow": "none",
     "widgetName": "Button1",
     "onClick": "{{showModal('Modal1')}}",
     "buttonColor": "#231F20",
@@ -18,6 +18,7 @@
     "text": "Add New",
     "isDisabled": false,
     "key": "vnisthnerp",
+    "labelTextSize": "0.875rem",
     "rightColumn": 62,
     "isDefaultClickDisabled": true,
     "widgetId": "ihqn366tnq",
@@ -27,5 +28,6 @@
     "parentId": "zltanazxtm",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "borderRadius": "0px",
     "buttonVariant": "SECONDARY"
 }

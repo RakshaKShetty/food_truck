@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "Button3",
     "onClick": "{{closeModal('Modal1')}}",
     "buttonColor": "#03B365",
@@ -13,6 +14,7 @@
     "text": "Close",
     "isDisabled": false,
     "key": "vnisthnerp",
+    "labelTextSize": "0.875rem",
     "rightColumn": 42,
     "isDefaultClickDisabled": true,
     "widgetId": "nqhh72w3it",
@@ -23,5 +25,6 @@
     "parentId": "jmo4nrd6km",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "borderRadius": "0px",
     "buttonVariant": "SECONDARY"
 }

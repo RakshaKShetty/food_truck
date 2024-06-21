@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "Input3",
     "displayName": "Input",
     "iconSVG": "/static/media/icon.9f505595.svg",
@@ -12,14 +13,16 @@
     "dynamicTriggerPathList": [],
     "resetOnSubmit": true,
     "leftColumn": 19,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [{"key": "accentColor"}],
     "labelStyle": "BOLD",
     "inputType": "NUMBER",
     "isDisabled": false,
     "key": "vb6684sbkl",
+    "labelTextSize": "0.875rem",
     "isRequired": false,
     "rightColumn": 39,
     "widgetId": "wtzceftqck",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
     "label": "",
     "allowCurrencyChange": false,
@@ -27,6 +30,7 @@
     "parentId": "g2s3kq5pxv",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "borderRadius": "0px",
     "iconAlign": "left",
     "defaultText": ""
 }

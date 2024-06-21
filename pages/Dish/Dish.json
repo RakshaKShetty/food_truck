@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 57,
+          "version": 89,
           "minHeight": 650,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -53,6 +53,7 @@
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Dish",
         "deleted": false,

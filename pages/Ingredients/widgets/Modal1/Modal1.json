@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "Modal1",
     "isCanvas": true,
     "displayName": "Modal",
@@ -12,6 +13,7 @@
     "parentColumnSpace": 1,
     "leftColumn": 0,
     "children": [{
+        "boxShadow": "none",
         "widgetName": "Canvas4",
         "displayName": "Canvas",
         "topRow": 0,
@@ -28,6 +30,7 @@
         "dynamicBindingPathList": [],
         "isDisabled": false,
         "key": "y8whszudtm",
+        "labelTextSize": "0.875rem",
         "rightColumn": 0,
         "detachFromLayout": true,
         "widgetId": "jmo4nrd6km",
@@ -35,12 +38,15 @@
         "version": 1,
         "parentId": "aezfuhu4l1",
         "renderMode": "CANVAS",
-        "isLoading": false
+        "isLoading": false,
+        "borderRadius": "0px"
     }],
     "key": "vj3dfo3hh2",
     "height": 300,
+    "labelTextSize": "0.875rem",
     "rightColumn": 0,
     "detachFromLayout": true,
+    "dynamicHeight": "FIXED",
     "widgetId": "aezfuhu4l1",
     "canOutsideClickClose": true,
     "canEscapeKeyClose": true,
@@ -48,5 +54,8 @@
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "width": 456
+    "borderRadius": "0px",
+    "maxDynamicHeight": 9000,
+    "width": 456,
+    "minDynamicHeight": 4
 }

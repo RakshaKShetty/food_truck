@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "Text6",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.e6c93592.svg",
@@ -10,12 +11,15 @@
     "parentColumnSpace": 16.4287109375,
     "dynamicTriggerPathList": [],
     "overflow": "NONE",
+    "fontFamily": "System Default",
     "leftColumn": 2,
     "dynamicBindingPathList": [],
     "text": "Preference",
     "key": "oizcoadvm6",
+    "labelTextSize": "0.875rem",
     "rightColumn": 18,
     "textAlign": "LEFT",
+    "dynamicHeight": "FIXED",
     "widgetId": "7v061nvu4x",
     "isVisible": true,
     "fontStyle": "BOLD",
@@ -24,5 +28,8 @@
     "parentId": "g2s3kq5pxv",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "fontSize": "PARAGRAPH"
+    "borderRadius": "0px",
+    "maxDynamicHeight": 9000,
+    "fontSize": "0.875rem",
+    "minDynamicHeight": 4
 }

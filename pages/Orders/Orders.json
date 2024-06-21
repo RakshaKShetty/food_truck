@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
+          "version": 89,
           "minHeight": 550,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -34,7 +34,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "appsmith.user.username"
+                " appsmith.user.username"
               ],
               "timeoutInMillisecond": 10000
             }

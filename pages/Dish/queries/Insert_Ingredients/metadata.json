@@ -44,7 +44,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2021-10-18T14:16:38Z"
   },
   "id": "Dish_Insert_Ingredients",
   "deleted": false,

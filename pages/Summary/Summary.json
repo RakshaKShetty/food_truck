@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 49,
+          "version": 89,
           "minHeight": 650,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -31,6 +31,7 @@
             {
               "id": "Summary_Dish_summary",
               "name": "Dish_summary",
+              "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
@@ -38,12 +39,14 @@
             {
               "id": "Summary_Ingredient_summary",
               "name": "Ingredient_summary",
+              "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Summary",
         "deleted": false,

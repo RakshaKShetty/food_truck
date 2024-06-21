@@ -54,6 +54,7 @@
             "key": "9b1d68si1r"
         }
     },
+    "boxShadow": "none",
     "widgetName": "ingredientlist",
     "listData": "{{get_Ingredients.data}}",
     "isCanvas": true,
@@ -72,11 +73,13 @@
         {"key": "template.Image1.image"},
         {"key": "template.Text2.text"},
         {"key": "listData"},
-        {"key": "template.Image1.objectFit"}
+        {"key": "template.Image1.objectFit"},
+        {"key": "accentColor"}
     ],
     "gridType": "vertical",
     "enhancements": true,
     "children": [{
+        "boxShadow": "none",
         "widgetName": "Canvas2",
         "displayName": "Canvas",
         "topRow": 0,
@@ -92,6 +95,7 @@
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "key": "y8whszudtm",
+        "labelTextSize": "0.875rem",
         "rightColumn": 400.76953125,
         "detachFromLayout": true,
         "widgetId": "sklksfkoct",
@@ -100,19 +104,20 @@
         "version": 1,
         "parentId": "ytbwfmv63q",
         "renderMode": "CANVAS",
-        "isLoading": false
+        "isLoading": false,
+        "borderRadius": "0px"
     }],
-    "privateWidgets": {
-        "Image1": true,
-        "Text2": true
-    },
+    "privateWidgets": {"undefined": true},
     "key": "vk4tpdsrc2",
+    "labelTextSize": "0.875rem",
     "backgroundColor": "transparent",
     "rightColumn": 62,
     "itemBackgroundColor": "#FFFFFF",
     "widgetId": "ytbwfmv63q",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
     "parentId": "zltanazxtm",
     "renderMode": "CANVAS",
-    "isLoading": false
+    "isLoading": false,
+    "borderRadius": "0px"
 }

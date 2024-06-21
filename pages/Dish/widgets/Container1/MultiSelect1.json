@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "MultiSelect1",
     "displayName": "MultiSelect",
     "iconSVG": "/static/media/icon.a3495809.svg",
@@ -12,18 +13,24 @@
     "parentColumnSpace": 16.4287109375,
     "dynamicTriggerPathList": [],
     "leftColumn": 19,
-    "dynamicBindingPathList": [{"key": "options"}],
+    "dynamicBindingPathList": [
+        {"key": "options"},
+        {"key": "accentColor"}
+    ],
     "options": "{{Select_Ingredient.data}}",
     "placeholderText": "Select Option(s)",
     "isDisabled": false,
     "key": "9b9ws5jxvt",
+    "labelTextSize": "0.875rem",
     "isRequired": false,
     "rightColumn": 39,
     "widgetId": "tqagaiy9it",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
     "label": "",
     "version": 1,
     "parentId": "g2s3kq5pxv",
     "renderMode": "CANVAS",
-    "isLoading": false
+    "isLoading": false,
+    "borderRadius": "0px"
 }

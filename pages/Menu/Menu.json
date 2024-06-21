@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
+          "version": 89,
           "minHeight": 550,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -38,6 +38,18 @@
           ],
           [
             {
+              "id": "Menu_total_cart_items",
+              "name": "total_cart_items",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Menu_get_menu",
               "name": "get_menu",
               "confirmBeforeExecute": false,
@@ -45,18 +57,6 @@
               "jsonPathKeys": [
                 "Type.selectedOptionValue",
                 "Preference.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Menu_total_cart_items",
-              "name": "total_cart_items",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.user.username"
               ],
               "timeoutInMillisecond": 10000
             }

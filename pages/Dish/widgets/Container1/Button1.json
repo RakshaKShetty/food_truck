@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "Button1",
     "onClick": "{{\ninsert_dish.run(\n(data) => {\nstoreValue(\"newDishId\", data[0]['id']);\nInsert_Dish_Details.run();\n\nInsert_Ingredients.run();\n\n}\n)\n\n}}",
     "buttonColor": "#03B365",
@@ -17,6 +18,7 @@
     "text": "Add",
     "isDisabled": false,
     "key": "vyd1l4bvz7",
+    "labelTextSize": "0.875rem",
     "rightColumn": 57,
     "isDefaultClickDisabled": true,
     "widgetId": "11hft78s3j",
@@ -26,5 +28,6 @@
     "parentId": "g2s3kq5pxv",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "borderRadius": "0px",
     "buttonVariant": "PRIMARY"
 }

@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 700,
+          "bottomRow": 550,
           "containerStyle": "none",
           "snapRows": 129,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 57,
+          "version": 89,
           "minHeight": 650,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -37,6 +37,7 @@
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Ingredients",
         "deleted": false,
