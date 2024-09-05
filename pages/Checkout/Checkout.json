@@ -1,57 +1,33 @@
 {
+  "gitSyncId": "616bb65c354b5d6f2b9aae8c_61bb770dcd5d70450952cb44",
   "unpublishedPage": {
-    "name": "Checkout",
-    "slug": "checkout",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 816,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 450,
-          "containerStyle": "none",
-          "snapRows": 129,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
           "minHeight": 550,
           "parentColumnSpace": 1,
-          "dynamicTriggerPathList": [],
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Checkout_cart_items",
-              "name": "cart_items",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.user.username"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Checkout",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 816,
+          "snapColumns": 64,
+          "snapRows": 129,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "616bb65c354b5d6f2b9aae8c_61bb770dcd5d70450952cb44"
+    "name": "Checkout",
+    "slug": "checkout"
+  }
 }

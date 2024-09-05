@@ -1,60 +1,33 @@
 {
+  "gitSyncId": "616bb65c354b5d6f2b9aae8c_61bb770dcd5d70450952cb6a",
   "unpublishedPage": {
-    "name": "Summary",
-    "slug": "summary",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 822,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 700,
-          "containerStyle": "none",
-          "snapRows": 129,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 49,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
           "minHeight": 650,
           "parentColumnSpace": 1,
-          "dynamicTriggerPathList": [],
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Summary_Dish_summary",
-              "name": "Dish_summary",
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Summary_Ingredient_summary",
-              "name": "Ingredient_summary",
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "validOnPageLoadActions": true,
-        "id": "Summary",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 822,
+          "snapColumns": 64,
+          "snapRows": 129,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "616bb65c354b5d6f2b9aae8c_61bb770dcd5d70450952cb6a"
+    "name": "Summary",
+    "slug": "summary"
+  }
 }

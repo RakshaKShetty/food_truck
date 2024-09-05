@@ -1,180 +1,198 @@
 {
-    "boxShadow": "none",
-    "widgetName": "orders",
-    "defaultPageSize": 0,
-    "columnOrder": [
-        "Id",
-        "DishName",
-        "ratings",
-        "customColumn1"
-    ],
-    "isVisibleDownload": false,
-    "dynamicPropertyPathList": [],
-    "displayName": "Table",
-    "iconSVG": "/static/media/icon.59df0390.svg",
-    "topRow": 5,
-    "bottomRow": 49,
-    "parentRowSpace": 10,
-    "isSortable": true,
-    "type": "TABLE_WIDGET",
-    "defaultSelectedRow": "0",
-    "hideCard": false,
-    "parentColumnSpace": 16.1828125,
-    "dynamicTriggerPathList": [{"key": "primaryColumns.customColumn1.onClick"}],
-    "dynamicBindingPathList": [
-        {"key": "tableData"},
-        {"key": "primaryColumns.Id.computedValue"},
-        {"key": "primaryColumns.DishName.computedValue"},
-        {"key": "primaryColumns.ratings.computedValue"},
-        {"key": "primaryColumns.customColumn1.buttonLabel"},
-        {"key": "accentColor"}
-    ],
-    "leftColumn": 1,
-    "primaryColumns": {
-        "ratings": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{orders.sanitizedTableData.map((currentRow) => ( currentRow.ratings))}}",
-            "textSize": "0.875rem",
-            "index": 2,
-            "isVisible": true,
-            "label": "ratings",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "ratings",
-            "isDisabled": false,
-            "verticalAlignment": "CENTER"
-        },
-        "customColumn1": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": true,
-            "computedValue": "",
-            "onClick": "{{showModal('Modal1')}}",
-            "buttonColor": "#F86A2B",
-            "buttonStyle": "rgb(3, 179, 101)",
-            "index": 3,
-            "isVisible": true,
-            "label": "customColumn1",
-            "buttonLabel": "{{orders.sanitizedTableData.map((currentRow) => ( 'Rating'))}}",
-            "columnType": "button",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "customColumn1",
-            "isDisabled": false,
-            "buttonLabelColor": "#FFFFFF"
-        },
-        "Id": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{orders.sanitizedTableData.map((currentRow) => ( currentRow.Id))}}",
-            "textSize": "0.875rem",
-            "index": 0,
-            "isVisible": true,
-            "label": "Id",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "Id",
-            "isDisabled": false,
-            "verticalAlignment": "CENTER"
-        },
-        "DishName": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{orders.sanitizedTableData.map((currentRow) => ( currentRow.DishName))}}",
-            "textSize": "0.875rem",
-            "index": 1,
-            "isVisible": true,
-            "label": "DishName",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "DishName",
-            "isDisabled": false,
-            "verticalAlignment": "CENTER"
-        }
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "borderRadius": "0px",
+  "bottomRow": 49,
+  "boxShadow": "none",
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "delimiter": ",",
-    "key": "8qhtcur4m1",
-    "derivedColumns": {"customColumn1": {
-        "isCellVisible": true,
-        "boxShadow": "none",
-        "isDerived": true,
-        "computedValue": "",
-        "onClick": "{{showModal('Modal1')}}",
-        "buttonColor": "#F86A2B",
-        "buttonStyle": "rgb(3, 179, 101)",
-        "index": 3,
-        "isVisible": true,
-        "label": "customColumn1",
-        "buttonLabel": "{{orders.sanitizedTableData.map((currentRow) => ( 'Rating'))}}",
-        "columnType": "button",
-        "borderRadius": "0px",
-        "width": 150,
-        "enableFilter": true,
-        "enableSort": true,
-        "id": "customColumn1",
-        "isDisabled": false,
-        "buttonLabelColor": "#FFFFFF"
-    }},
-    "labelTextSize": "0.875rem",
-    "rightColumn": 63,
-    "textSize": "0.875rem",
-    "widgetId": "0hbkobyi3w",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisibleFilters": false,
-    "tableData": "{{ordered_items.data}}",
-    "isVisible": true,
-    "label": "Data",
-    "searchKey": "",
-    "version": 3,
-    "totalRecordsCount": 0,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "horizontalAlignment": "LEFT",
-    "isVisibleSearch": false,
-    "childStylesheet": {
-        "button": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "iconButton": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "menuColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "menuButton": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "menuColor": "{{appsmith.theme.colors.primaryColor}}"
-        }
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
     },
-    "borderRadius": "0px",
-    "isVisiblePagination": true,
-    "verticalAlignment": "CENTER",
-    "columnSizeMap": {
-        "task": 245,
-        "ratings": 405,
-        "step": 62,
-        "status": 75,
-        "DishName": 329
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
     }
+  },
+  "columnOrder": [
+    "Id",
+    "DishName",
+    "ratings",
+    "customColumn1"
+  ],
+  "columnSizeMap": {
+    "DishName": 329,
+    "ratings": 405,
+    "status": 75,
+    "step": 62,
+    "task": 245
+  },
+  "defaultPageSize": 0,
+  "defaultSelectedRow": "0",
+  "delimiter": ",",
+  "derivedColumns": {
+    "customColumn1": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "buttonColor": "#F86A2B",
+      "buttonLabel": "{{orders.sanitizedTableData.map((currentRow) => ( 'Rating'))}}",
+      "buttonLabelColor": "#FFFFFF",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "button",
+      "computedValue": "",
+      "enableFilter": true,
+      "enableSort": true,
+      "id": "customColumn1",
+      "index": 3,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "customColumn1",
+      "onClick": "{{showModal('Modal1')}}",
+      "width": 150
+    }
+  },
+  "displayName": "Table",
+  "dynamicBindingPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.Id.computedValue"
+    },
+    {
+      "key": "primaryColumns.DishName.computedValue"
+    },
+    {
+      "key": "primaryColumns.ratings.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.buttonLabel"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "primaryColumns.customColumn1.onClick"
+    }
+  ],
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "iconSVG": "/static/media/icon.59df0390.svg",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": false,
+  "key": "8qhtcur4m1",
+  "label": "Data",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "parentColumnSpace": 16.1828125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "DishName": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{orders.sanitizedTableData.map((currentRow) => ( currentRow.DishName))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "DishName",
+      "index": 1,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "DishName",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "Id": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{orders.sanitizedTableData.map((currentRow) => ( currentRow.Id))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "Id",
+      "index": 0,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Id",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn1": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "buttonColor": "#F86A2B",
+      "buttonLabel": "{{orders.sanitizedTableData.map((currentRow) => ( 'Rating'))}}",
+      "buttonLabelColor": "#FFFFFF",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "button",
+      "computedValue": "",
+      "enableFilter": true,
+      "enableSort": true,
+      "id": "customColumn1",
+      "index": 3,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "customColumn1",
+      "onClick": "{{showModal('Modal1')}}",
+      "width": 150
+    },
+    "ratings": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{orders.sanitizedTableData.map((currentRow) => ( currentRow.ratings))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "ratings",
+      "index": 2,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "ratings",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "searchKey": "",
+  "tableData": "{{ordered_items.data}}",
+  "textSize": "0.875rem",
+  "topRow": 5,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET",
+  "version": 3,
+  "verticalAlignment": "CENTER",
+  "widgetId": "0hbkobyi3w",
+  "widgetName": "orders"
 }

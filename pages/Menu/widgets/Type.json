@@ -1,38 +1,46 @@
 {
-    "boxShadow": "none",
-    "widgetName": "Type",
-    "isFilterable": false,
-    "displayName": "Select",
-    "iconSVG": "/static/media/icon.5efb8b71.svg",
-    "topRow": 33,
-    "bottomRow": 37,
-    "parentRowSpace": 10,
-    "type": "DROP_DOWN_WIDGET",
-    "serverSideFiltering": false,
-    "hideCard": false,
-    "defaultOptionValue": "1",
-    "selectionType": "SINGLE_SELECT",
-    "parentColumnSpace": 16.1828125,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "leftColumn": 33,
-    "dynamicBindingPathList": [
-        {"key": "options"},
-        {"key": "accentColor"}
-    ],
-    "options": "{{get_types.data}}",
-    "isDisabled": false,
-    "key": "mb5oelk6c9",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "rightColumn": 53,
-    "widgetId": "zniza6gs6r",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "label": "",
-    "version": 1,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "onOptionChange": "{{get_menu.run()}}"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "borderRadius": "0px",
+  "bottomRow": 37,
+  "boxShadow": "none",
+  "defaultOptionValue": "1",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "options"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.5efb8b71.svg",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "mb5oelk6c9",
+  "label": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 33,
+  "onOptionChange": "{{get_menu.run()}}",
+  "options": "{{get_types.data}}",
+  "parentColumnSpace": 16.1828125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 53,
+  "selectionType": "SINGLE_SELECT",
+  "serverSideFiltering": false,
+  "topRow": 33,
+  "type": "DROP_DOWN_WIDGET",
+  "version": 1,
+  "widgetId": "zniza6gs6r",
+  "widgetName": "Type"
 }

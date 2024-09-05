@@ -1,20 +1,16 @@
 {
+  "gitSyncId": "616bb65c354b5d6f2b9aae8c_61bb7741cd5d7045095335b6",
+  "id": "Dish_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "Dish",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "results",
         "value": []
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Dish_JSObject1",
-  "deleted": false,
-  "gitSyncId": "616bb65c354b5d6f2b9aae8c_61bb7741cd5d7045095335b6"
+    ]
+  }
 }

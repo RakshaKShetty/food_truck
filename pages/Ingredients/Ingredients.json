@@ -1,53 +1,32 @@
 {
+  "gitSyncId": "616bb65c354b5d6f2b9aae8c_61bb770dcd5d70450952cb46",
   "unpublishedPage": {
-    "name": "Ingredients",
-    "slug": "ingredients",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 822,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 700,
-          "containerStyle": "none",
-          "snapRows": 129,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 57,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 650,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Ingredients_get_Ingredients",
-              "name": "get_Ingredients",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "validOnPageLoadActions": true,
-        "id": "Ingredients",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 822,
+          "snapColumns": 64,
+          "snapRows": 129,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "616bb65c354b5d6f2b9aae8c_61bb770dcd5d70450952cb46"
+    "name": "Ingredients",
+    "slug": "ingredients"
+  }
 }
